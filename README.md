@@ -9,12 +9,12 @@ It contains multiple pages showcasing personal details, hobbies, and interests, 
 
 ## Project Structure
 ```
-Personal_Interest_Website/
+Summative_CS3_Q1/
 │── index.html        # Homepage
 │── about.html        # About page
-│── contact.html      # Contact page
-│── gallery.html      # Gallery page
-│── interests.html    # Interests page
+│── crochet.html      # Crochet page
+│── books.html        # Books page
+│── shows.html        # Shows page
 │── styles.css        # Global CSS stylesheet
 │── images/           # Image assets
      ├── books1.jpg
@@ -41,17 +41,20 @@ Personal_Interest_Website/
 - Describes background information about the site owner.
 - May include text, an image, and short bio.
 
-### 3. **Contact Page** (`contact.html`)
-- Provides ways to get in touch (e.g., email form, details).
-- Includes basic layout for user interaction.
-
-### 4. **Gallery Page** (`gallery.html`)
-- Displays a collection of images.
+### 3. **Crochet Page** (`crochet.html`)
+- Introduces the reason shows are one of the interests.
+- Each specific show is illustrated with images and styled text.
 - Images are stored inside `/images/`.
 
-### 5. **Interests Page** (`interests.html`)
-- Lists hobbies and interests (e.g., books, movies, crochet).
-- Each interest is illustrated with images and styled text.
+### 4. **Books Page** (`books.html`)
+- Introduces the reason shows are one of the interests.
+- Each specific show is illustrated with images and styled text.
+- Images are stored inside `/images/`.
+
+### 5. **Shows Page** (`shows.html`)
+- Introduces the reason shows are one of the interests.
+- Each specific show is illustrated with images and styled text.
+- Images are stored inside `/images/`.
 
 ---
 
@@ -74,10 +77,8 @@ The entire website is styled using a **single external CSS file**: `styles.css`.
 - Common **section and container classes**:
   - `.content` – main wrapper for page text.
   - `.container` – groups text and images.
-  - `.gallery` – grid layout for images on the gallery page.
 
 ### Images
-- `.gallery img` – sets width, height, margin, and border.
 - `.profile` – specific styling for personal/portrait images.
 
 ### Text Formatting
@@ -90,9 +91,8 @@ The entire website is styled using a **single external CSS file**: `styles.css`.
 All images are stored in the `/images/` folder.  
 Examples:
 - `student.jpg` → Profile/portrait photo.
-- `books.jpg` → Represents reading interest.
-- `crochet.jpg` → Represents crochet hobby.
-- `gallery-art.jpg` → Used in the gallery.
+- `books1.jpg` → Represents Book/Reading Collection.
+- `crochet1.jpg` → Represents crochet works.
 
 ---
 
